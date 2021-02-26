@@ -419,6 +419,10 @@ strong{
     top: 202%;
     }
 
+  .img-b-all img {
+    width: 100%;
+  }
+
   .menu-toogle {
     line-height: 48;
   }
@@ -437,6 +441,10 @@ strong{
 
   .contenidoint {
     height: 18.5em;
+  }
+
+  .cont-footer {
+    font-size: 12px;
 }
 }
 
