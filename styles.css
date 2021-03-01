@@ -232,6 +232,10 @@ body::-webkit-scrollbar-track:active {
         position:fixed; /*Fijamos la hamburgues para que se desplace junto con el menú*/
       }
 
+.block-cel{
+  display: none;
+}
+
 #img-header{
   position: absolute;
   height: 100%;
@@ -362,6 +366,16 @@ body::-webkit-scrollbar-track:active {
 }
 
 #contenidotextl p {
+  padding: 0px;
+  margin: 0px;
+}
+
+#contenidotextc h2 {
+  padding: 0px;
+  margin: 0px;
+  font-size: 60px;
+}
+#contenidotextc p {
   padding: 0px;
   margin: 0px;
 }
@@ -529,6 +543,11 @@ strong{
     margin: 0px;
   }
 
+  .img-b-all{
+    width: 200%;
+    height: 150%;
+  }
+
   #masinfo-header {
     margin: 0;
   }
@@ -552,7 +571,7 @@ strong{
   }
 
   #contenidoplus {
-    margin: 9px 0;
+    margin: 20px 0;
     width: 100%;
   }
 
@@ -564,40 +583,107 @@ strong{
     width: 9em;
   }
 
-  .contenidoint {
-    padding-top: 2em;
-  }
-
-  #contenidotextl h2 {
-    font-size: 50px;
-  }
-
-  .contenidoint img {
-    width: 150%;
-    margin: -30px 0px 0px -90px;
-  }
-
-  .border-n-bottom {
-    border-bottom: 1px solid #bbb;
-  }
-
-  #contenidotextl h2 {
-    font-size: 30px;
-    line-height: 0px;
-  }
-
-  #contenidotextl p {
-    padding: 20px 0px;
-    margin: 0px auto;
-    width: 90%;
-    font-size: 15px;
-    text-align: left;
+  .none-cel{
     display: none;
   }
 
-  footer {
-    top: 302%;
+  .block-cel{
+    display: block;
+  }
+
+  .contenidoint {
+    height: 11em;
+  }
+
+  #contenidotextc h2 {
+    font-size: 30px;
+  }
+
+  #contenidotextc p {
+    margin: 15px auto 0px auto;
+    width: 90%;
+  }
+
+  #a-cont-cel a {
+    color: #414141;
+    font-size: 18px;
+  }
+
+
+  #a-cont-cel {
+    background: #aaa;
+    padding: 10px 5em;
+}
+
+  .contenidoint {
+    overflow:visible;
+  }
+
+  .contenidoext {
+    padding: 0.8em 0px 0em 0px;
+    border: 0px; 
+  }
+
+  .contenidoint h1 {
+    text-align: center;
+    margin: 68px auto -50px auto;
+  }
+
+  .border-bottom{
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(to right, #ff0000 0%, #ff8000 10%, #feff00 20%, #3dff00 30%, #00fff4 40%, #00f1ff 50%, #0027ff 60%, #8800ff 70%, #c400ff 80%, #ff0097 90%, #ff0000 100%) 1;
+  
+  }
+
+  #principal-info-footer {
+    width: 100%;
+    text-align: center;
+  }
+
+  .cont-footer {
+    width: 90%;
+  }
+
+
+  .margin-r-5em{
+    margin: 0px;
+  }
+
+  #contenedor-footer ul {
+    line-height: 2em;
+    font-size: 10px;
+    border-bottom: 1px solid rgba(73, 73, 73, 0.486);
+    text-align: center;
+  }
+
+  .list-redes-footer ul li {
+    display: inline-block;
+    width: 13%;
+  }
+
+  #principal-info-footer2{
+      width: 100%;
+      text-align: center;
+      font-size: 13px;
     }
+  }
+
+  #ocultar{
+    display: none;
+  }
+
+  #info-footer p {
+    text-align: center;
+  }
+
+  strong {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+  footer {
+    top:201.4%;
+  }
 }
 
 /* 1912 x 969px */
